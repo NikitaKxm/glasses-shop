@@ -1,0 +1,407 @@
+*{
+    margin: 0;
+}
+html , body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrapp{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1 1 auto;
+}
+.navbar{
+    background-color: #EFF1ED;
+}
+.navbar-body{
+color: #505A5B;
+    display: flex;
+    flex: 0 1 auto;
+    max-width: 850px;
+    height: 61px;
+    margin: 0 auto;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #EFF1ED;
+    justify-content: space-around;
+}
+.navbar-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.btn-navbar{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+border-radius: 8px;
+padding: 10px;
+
+cursor: grab;
+
+color: #E8EBE4;
+    background-color: #505A5B;
+}
+.navbar-text1{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+
+
+text-decoration-line: underline;
+
+color: #D36060;
+}
+
+
+.hero-body{
+    display:flex ;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    text-align: right; 
+    align-items: center;
+    justify-content: flex-end; 
+    background-image: url(img/trey.png);
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: left;
+    margin-right: 104px;
+}
+.hero-title{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 120px;
+line-height: 156px;
+/* or 130% */
+
+letter-spacing: 0.02em;
+font-feature-settings: 'ordn' on, 'liga' off;
+
+color: #EFF1ED;
+}
+.hero-label{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 52px;
+}
+
+
+
+.history-body{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+.history-img{
+    max-height: 80%;
+       border-radius: 12px; 
+}
+.histori-img{
+    flex: 1 1 50%;
+    justify-content: center;
+    text-align: center;
+}
+.history-text{
+    flex: 1 1 50%;
+}
+.history-label{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height, or 130% */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+font-feature-settings: 'liga' off;
+
+color: #505A5B;
+
+}
+.history-title{
+    width: 500px;
+    margin: 30px 0;
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 73px;
+/* or 130% */
+
+font-feature-settings: 'liga' off;
+
+color: #505A5B;
+}
+.history-body-text{
+    width: 500px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+font-feature-settings: 'liga' off;
+
+color: #333333;
+
+}
+
+
+
+
+.product-body{
+display: flex;
+padding-top: 100px;
+background-color: #505A5B;
+}
+.product-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+flex: 1 1 50%;
+width: 476px;
+}
+    .product-label{
+        width: 472px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height, or 130% */
+letter-spacing: 0.1em;
+text-transform: uppercase;
+font-feature-settings: 'liga' off;
+
+color: #E8EBE4;
+    }
+    .product-title{
+        width: 472px;
+        font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 73px;
+/* identical to box height, or 130% */
+
+font-feature-settings: 'liga' off;
+
+color: #EFF1ED;
+    }
+    .product-body-text{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 40px;
+        
+
+         width: 472px;
+
+        font-feature-settings: 'liga' off;
+        
+        color: #E8EBE4;
+    }
+
+
+    .brand-body{
+         background-color: #505A5B;
+    }
+    .brand-title{
+        padding: 50px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 42px;
+        /* identical to box height, or 130% */
+        
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        
+        color: #EFF1ED;
+    }
+    .brand-img{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+
+    .care-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .care-img{
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+        max-width: 100%;
+    }
+
+
+    .care-text{
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        width: 575px;
+    }
+    .care-label{
+        margin-top: 20px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+/* identical to box height, or 130% */
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+font-feature-settings: 'liga' off;
+
+color: #505A5B;
+    }
+    .care-title{
+        margin-top: 25px;
+        font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 900;
+font-size: 56px;
+line-height: 73px;
+/* identical to box height, or 130% */
+
+font-feature-settings: 'liga' off;
+
+color: #505A5B;
+
+    }
+    .care-body-text{
+        margin: 25px 0px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 40px;
+/* or 167% */
+
+font-feature-settings: 'liga' off;
+
+color: #333333;
+    }
+    .care-btn{
+        display: flex;
+        justify-content: center;
+
+
+        cursor: grab;
+        padding-top: 10px;
+        margin-top: 50px;
+        margin-bottom: 120px;
+        background: #505A5B;
+        border-radius: 8px;
+        width: 270px;
+        height: 40px;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+
+color: #E8EBE4;
+    }
+
+
+
+
+
+
+.product-img{
+ flex: 1 1 50%;
+}
+
+
+
+
+.footer{
+    display: flex;
+    background-color: #505A5B;
+    padding: 70px 70px 0px 70px;
+}
+.footer-text{
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    min-width: 1000px;
+    background-color: #505A5B;
+}
+.simple-text{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* or 130% */
+    
+    font-feature-settings: 'liga' off;
+    
+    color: #E8EBE4;
+    
+}
+.title-footer{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+/* or 134% */
+
+font-feature-settings: 'liga' off;
+
+color: #E8EBE4;
+
+}
+.subtitle{
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 20px;
+
+
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 149% */
+
+text-align: center;
+font-feature-settings: 'liga' off;
+
+color: #E8EBE4;
+}
