@@ -1,1 +1,1 @@
-# code-collective.github.io
+# Code-Collective.github.io
